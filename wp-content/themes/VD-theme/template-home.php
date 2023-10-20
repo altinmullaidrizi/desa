@@ -185,7 +185,7 @@ Template Name: Homepage Template
     </div>
 </section>
 
-<section id="section-contact" class="section-contact">
+<section id="section-new-contact" class="section-new-contact">
     <div class="container">
         <p class="main-title">
             Vereinbaren Sie schnell und einfach einen Termin!
