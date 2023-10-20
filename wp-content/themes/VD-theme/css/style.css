@@ -365,10 +365,10 @@
   line-height: 27px;
 }
 
-.section-contact {
+.section-new-contact {
   padding: 80px 0;
 }
-.section-contact .container .main-title {
+.section-new-contact .container .main-title {
   color: #23467F;
   text-align: center;
   font-family: Gordita;
@@ -380,14 +380,14 @@
   margin: auto;
   margin-bottom: 60px !important;
 }
-.section-contact .container .elements .element-wrapper {
+.section-new-contact .container .elements .element-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   padding: 24px 16px;
 }
-.section-contact .container .elements .element-wrapper .icon-wrapper {
+.section-new-contact .container .elements .element-wrapper .icon-wrapper {
   border-radius: 20px;
   background: #FFE900;
   width: 84px;
@@ -397,7 +397,7 @@
   align-items: center;
   margin-bottom: 24px;
 }
-.section-contact .container .elements .element-wrapper .title {
+.section-new-contact .container .elements .element-wrapper .title {
   color: #23467F;
   text-align: center;
   font-family: Gordita;
@@ -407,7 +407,7 @@
   line-height: normal;
   margin-bottom: 11px;
 }
-.section-contact .container .elements .element-wrapper .link {
+.section-new-contact .container .elements .element-wrapper .link {
   color: #23467F;
   text-align: center;
   font-family: Gordita;
@@ -416,12 +416,12 @@
   font-weight: 400;
   line-height: normal;
 }
-.section-contact .container .elements .element-wrapper.share-element {
+.section-new-contact .container .elements .element-wrapper.share-element {
   border-radius: 16px;
   padding: 38px 16px;
   background: #23467F;
 }
-.section-contact .container .elements .element-wrapper.share-element .direction-title {
+.section-new-contact .container .elements .element-wrapper.share-element .direction-title {
   color: #FFE900;
   text-align: center;
   font-family: Gordita;
