@@ -64,7 +64,7 @@ if (!$has_page_banner) {
             </div>
             <div class="get-in-touch d-none d-lg-flex">
                 <a data-toggle="modal" data-target=".bd-example-modal-lg">
-                    Kontakt
+                Termin online vereinbaren
                 </a>
             </div>
             <div class="d-flex d-lg-none justify-content-center align-items-center open-menu " id="open-menu">

@@ -1031,7 +1031,8 @@ header .header-wrapper .nav-items ul li {
 }
 header .header-wrapper .nav-items ul li a {
   display: block;
-  color: #2D2D2D;
+  color: #23467F;
+  font-weight: 400;
   font-size: 18px;
   font-family: "Montserrat";
   line-height: 32px;
@@ -1061,13 +1062,14 @@ header .header-wrapper .mobile-nav-items ul li a {
   text-decoration: none;
 }
 header .header-wrapper .get-in-touch a {
-  padding: 12px 20px;
-  border-radius: 3px;
-  border: 1px solid #5F5F5F;
-  color: #5F5F5F;
+  background-color: #FFE900;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: none;
+  color: #23467F;
   font-size: 16px;
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 700;
   line-height: 32px;
   text-decoration: none;
 }
@@ -1263,21 +1265,38 @@ header.lightHeader {
 }
 .footer .container .footer-container .right-part {
   display: flex;
+  flex-direction: column;
   justify-content: end;
 }
-.footer .container .footer-container .right-part ul {
-  list-style: none;
+.footer .container .footer-container .right-part .d-flex {
+  justify-content: end;
+}
+.footer .container .footer-container .right-part p {
+  margin-bottom: 0;
+  text-align: end;
+}
+.footer .container .footer-container .right-part a {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.footer .container .footer-container .right-part .helpline {
+  margin-bottom: 20px;
+}
+.footer .container .footer-container .right-part .language {
   display: flex;
+  justify-content: end;
   align-items: center;
-  margin: 0;
 }
-.footer .container .footer-container .right-part ul li {
-  padding-left: 40px;
+.footer .container .footer-container .right-part .language span {
+  padding: 0 5px;
 }
-.footer .container .footer-container .right-part ul li a {
-  color: #0A142F;
-  font-size: 14px;
-  font-family: "Helvetica Neue", sans-serif;
+.footer .container .footer-container .right-part .language a {
+  text-decoration: none;
+  font-weight: 400;
+}
+.footer .container .footer-container .right-part .language a.active {
+  font-weight: 600;
 }
 
 .accordion-item {
