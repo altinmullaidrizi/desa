@@ -1,9 +1,129 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-Medium.eot');
+  src: local('Gordita Medium'), local('Gordita-Medium'),
+  url('../fonts/Gordita-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-Medium.woff2') format('woff2'),
+  url('../fonts/Gordita-Medium.woff') format('woff'),
+  url('../fonts/Gordita-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-Light.eot');
+  src: local('Gordita Light'), local('Gordita-Light'),
+  url('Gordita-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-Light.woff2') format('woff2'),
+  url('../fonts/Gordita-Light.woff') format('woff'),
+  url('../fonts/Gordita-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-Bold.eot');
+  src: local('Gordita Bold'), local('Gordita-Bold'),
+  url('../fonts/Gordita-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-Bold.woff2') format('woff2'),
+  url('../fonts/Gordita-Bold.woff') format('woff'),
+  url('../fonts/Gordita-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-MediumItalic.eot');
+  src: local('Gordita Medium Italic'), local('Gordita-MediumItalic'),
+  url('../fonts/Gordita-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-MediumItalic.woff2') format('woff2'),
+  url('../fonts/Gordita-MediumItalic.woff') format('woff'),
+  url('../fonts/Gordita-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-BoldItalic.eot');
+  src: local('Gordita Bold Italic'), local('Gordita-BoldItalic'),
+  url('../fonts/Gordita-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-BoldItalic.woff2') format('woff2'),
+  url('../fonts/Gordita-BoldItalic.woff') format('woff'),
+  url('../fonts/Gordita-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-Italic.eot');
+  src: local('Gordita Italic'), local('Gordita-Italic'),
+  url('../fonts/Gordita-Italic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-Italic.woff2') format('woff2'),
+  url('../fonts/Gordita-Italic.woff') format('woff'),
+  url('../fonts/Gordita-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-Regular.eot');
+  src: local('Gordita Regular'), local('Gordita-Regular'),
+  url('../fonts/Gordita-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-Regular.woff2') format('woff2'),
+  url('../fonts/Gordita-Regular.woff') format('woff'),
+  url('../fonts/Gordita-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-BlackItalic.eot');
+  src: local('Gordita Black Italic'), local('Gordita-BlackItalic'),
+  url('../fonts/Gordita-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-BlackItalic.woff2') format('woff2'),
+  url('../fonts/Gordita-BlackItalic.woff') format('woff'),
+  url('../fonts/Gordita-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-Black.eot');
+  src: local('Gordita Black'), local('Gordita-Black'),
+  url('../fonts/Gordita-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-Black.woff2') format('woff2'),
+  url('../fonts/Gordita-Black.woff') format('woff'),
+  url('../fonts/Gordita-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('../fonts/Gordita-LightItalic.eot');
+  src: local('Gordita Light Italic'), local('Gordita-LightItalic'),
+  url('../fonts/Gordita-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gordita-LightItalic.woff2') format('woff2'),
+  url('../fonts/Gordita-LightItalic.woff') format('woff'),
+  url('../fonts/Gordita-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
 @import "bootstrap.min.css";
 @import "swiper.min.css";
-@import "_responsive.scss";
 @import "_variables.scss";
 @import "hompepage.scss";
 @import "aboutus.scss";
@@ -16,7 +136,8 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Gordita", sans-serif;
+  hyphens: auto;
 }
 
 .module {
@@ -228,24 +349,19 @@ header {
 
   .icon-wrapper {
     cursor: pointer;
-    background-color: #FFF;
-    border-radius: 20px 20px 0 20px;
-    box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.1);
-
-    .icon {
-      min-height: 4.375rem;
-      min-width: 4.375rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      .default-icon {
-        height: 100%;
-        opacity: 1;
-        transition: all 0.5s ease-in;
-        display: block;
-      }
-    }
+    box-shadow: 0 0 0 12px #FFE90033;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FFE900;
+    color: #23467F;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
   }
 
   .box-details {
@@ -454,3 +570,32 @@ input.wpcf7-submit {
     flex-direction: row-reverse;
   }
 }
+
+.contact-bar {
+  overflow: hidden;
+  background-color: #23467F;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9;
+  display: none;
+  
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px 0;
+    color: white;
+    border-right: 1px solid white;
+    font-size: 12px;
+    font-weight: 700;
+    
+    &:last-of-type {
+      border-right: none;
+    }
+  }
+}
+
+@import "_responsive.scss";
