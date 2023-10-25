@@ -1,4 +1,21 @@
 @media only screen and (max-width: 767px) {
+    .section-termin .container .main-title {
+
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33px;
+        margin-bottom: 25px !important;
+    }
+
+    .section-termin .container .parts .left-part {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .section-termin .container .parts .right-part {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
     .footer .container .pre-footer .left-part {
         ul {
             flex-direction: column;

@@ -63,7 +63,7 @@ if (!$has_page_banner) {
                 </ul>
             </div>
             <div class="get-in-touch d-none d-lg-flex">
-                <a data-toggle="modal" data-target=".bd-example-modal-lg">
+                <a target="blank" href="https://reservation.desa-autoglass.ch/">
                 Termin online vereinbaren
                 </a>
             </div>

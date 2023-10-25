@@ -1,94 +1,39 @@
 jQuery(document).ready(function () {
-    alert("asdsadasd")
-    // var htmlHeight = jQuery('html').innerHeight();
-    // var bodyHeight = jQuery('body').innerHeight();
-    //
-    // if (htmlHeight > bodyHeight) {
-    //     jQuery('.footer').addClass("footer-absolute");
-    // }
-    //
-    // jQuery(window).on('resize', function () {
-    //     var win = jQuery(this);
-    //     if (win.width() <= 768) {
-    //         jQuery('.footer').removeClass("footer-absolute");
-    //         jQuery('.footer').addClass("footer-relative");
-    //     }
-    // });
-    //
-    // //Homepage Slider
-    // var homepageSwiper = new Swiper('.swiper-container-homepage', {
-    //     slidesPerView: 1,
-    //     spaceBetween: 30,
-    //     pagination: {
-    //         el: '.swiper-pagination',
-    //         clickable: true,
-    //     },
-    // });
-    //
-    // //About Us Slider
-    // var aboutSwiper = new Swiper('.swiper-container-about', {
-    //     slidesPerView: 1,
-    //     navigation: {
-    //         nextEl: '.swiper-button-next',
-    //         prevEl: '.swiper-button-prev',
-    //     },
-    //     on: {
-    //         slideChangeTransitionEnd: function (i, elm) {
-    //             var allModules = jQuery('.module');
-    //             // console.log(i, elm);
-    //             allModules.each(function (i, elm) {
-    //                 if (jQuery(elm).visible(true)) {
-    //                     jQuery(elm).addClass('module-ready');
-    //                 }
-    //             });
-    //         }
-    //     }
-    //
-    // });
-    //
-    // //Team Slider
-    // var teamSwiper = new Swiper('.swiper-container-team', {
-    //     init: true,
-    //     effect: 'fade',
-    //     grabCursor: true,
-    //     navigation: {
-    //         nextEl: '.swiper-button-next',
-    //         prevEl: '.swiper-button-prev',
-    //     },
-    // });
-    //
-    // teamSwiper.on('slideChange', function () {
-    //     var index = teamSwiper.activeIndex;
-    //     console.log(index);
-    //     jQuery('.tab-' + index).addClass('active');
-    //     jQuery('.team-content .tab-content').removeClass('active');
-    // })
 
-    //About Us Project Counter
+    var shareButton = jQuery('#share');
 
-    //
-    // var spanCounter = jQuery('.section-projects');
-    // jQuery(document).on('scroll', function () {
-    //     if (jQuery(spanCounter).visible(true) && !spanCounter.hasClass('start')) {
-    //         spanCounter.addClass('start');
-    //
-    //         jQuery('.count').each(function () {
-    //             jQuery(this).prop('Counter', 0).animate({
-    //                 Counter: jQuery(this).text()
-    //             }, {
-    //                 duration: 5000,
-    //                 easing: 'swing',
-    //                 step: function (now) {
-    //                     jQuery(this).text(Math.ceil(now));
-    //                 }
-    //             });
-    //         });
-    //     }
-    //
-    //
-    // });
+    // Add a click event handler to the "share" button
+    shareButton.on('click', function () {
+        // Check if the Web Share API is available in the browser
+        if (navigator.share) {
+            // Use the Web Share API to open the native share sheet
+            navigator.share({
+                title: 'Share this page', // Optional title
+                text: 'Check out this awesome page!', // Optional text
+                url: window.location.href, // The URL you want to share
+            })
+                .then(function () {
+                    console.log('Successfully shared');
+                })
+                .catch(function (error) {
+                    console.error('Share failed:', error);
+                });
+        } else {
+            // Fallback behavior if the Web Share API is not supported
+            console.info('Web Share API is not supported in this browser.');
+            var copyText = document.getElementById("theUrl");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
 
-
+            var copiedSpan = jQuery('.copied');
+            copiedSpan.css('opacity', '0.8');
+            // Automatically hide it after two seconds
+            setTimeout(function () {
+                copiedSpan.css('opacity', '0');
+            }, 1500);
+        }
+    });
     //Module Add On First Window
     var allModules = jQuery('.module');
     allModules.each(function (i, elm) {
