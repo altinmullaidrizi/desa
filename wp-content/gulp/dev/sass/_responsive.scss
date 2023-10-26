@@ -1,4 +1,29 @@
 @media only screen and (max-width: 767px) {
+
+    .footer .container .footer-container .left-part .logo {
+        max-width: 180px;
+    }
+
+    .footer .container .footer-container .left-part {
+        margin-bottom: 30px;
+    }
+
+    .footer .container .footer-container .right-part p br {
+        display: block !important;
+    } 
+
+    .footer .container .footer-container .right-part .d-flex {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .footer .container .footer-container .right-part p {
+         text-align: start; 
+    }
+
+    .footer .container .footer-container .right-part .language {
+        justify-content: start;
+    }
     .section-termin .container .main-title {
 
         font-size: 24px;

@@ -400,7 +400,8 @@ header {
 
 .footer {
   padding-bottom: 40px;
-
+  background-color: #e7e9ea;
+  box-shadow: inset 0 2px 4px 0 rgba(0,0,0,.1);
   .container {
     .pre-footer {
       padding: 50px 0;
@@ -468,7 +469,9 @@ header {
       .left-part {
         display: flex;
         justify-content: start;
-
+        .logo{
+          max-width: 250px;
+        }
         p {
           color: #0A142F;
           font-size: 14px;
@@ -486,7 +489,7 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: end;
-
+        letter-spacing: 1px;
         .d-flex {
           justify-content: end;
         }
@@ -530,6 +533,34 @@ header {
     }
   }
 
+}
+
+.after-footer{
+  padding: 12px;
+  .container{
+    .row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .left{
+        display: flex;
+        justify-content: start;
+        a{
+          color: #222222;
+          text-decoration: none;
+        }
+      }
+      .right{
+        display: flex;
+        justify-content: end;
+        a{
+          color: #222222;
+          text-decoration: none;
+
+        }
+      }
+    }
+  }
 }
 
 .accordion-item {

@@ -830,6 +830,8 @@ header .header-wrapper .get-in-touch a {
 
 .footer {
   padding-bottom: 40px;
+  background-color: #e7e9ea;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 .footer .container .pre-footer {
   padding: 50px 0;
@@ -887,6 +889,9 @@ header .header-wrapper .get-in-touch a {
   display: flex;
   justify-content: start;
 }
+.footer .container .footer-container .left-part .logo {
+  max-width: 250px;
+}
 .footer .container .footer-container .left-part p {
   color: #0A142F;
   font-size: 14px;
@@ -901,6 +906,7 @@ header .header-wrapper .get-in-touch a {
   display: flex;
   flex-direction: column;
   justify-content: end;
+  letter-spacing: 1px;
 }
 .footer .container .footer-container .right-part .d-flex {
   justify-content: end;
@@ -931,6 +937,31 @@ header .header-wrapper .get-in-touch a {
 }
 .footer .container .footer-container .right-part .language a.active {
   font-weight: 600;
+}
+
+.after-footer {
+  padding: 12px;
+}
+.after-footer .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.after-footer .container .row .left {
+  display: flex;
+  justify-content: start;
+}
+.after-footer .container .row .left a {
+  color: #222222;
+  text-decoration: none;
+}
+.after-footer .container .row .right {
+  display: flex;
+  justify-content: end;
+}
+.after-footer .container .row .right a {
+  color: #222222;
+  text-decoration: none;
 }
 
 .accordion-item {
@@ -993,6 +1024,26 @@ input.wpcf7-submit {
 }
 
 @media only screen and (max-width: 767px) {
+  .footer .container .footer-container .left-part .logo {
+    max-width: 180px;
+  }
+  .footer .container .footer-container .left-part {
+    margin-bottom: 30px;
+  }
+  .footer .container .footer-container .right-part p br {
+    display: block !important;
+  }
+  .footer .container .footer-container .right-part .d-flex {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .footer .container .footer-container .right-part p {
+    text-align: start;
+  }
+  .footer .container .footer-container .right-part .language {
+    justify-content: start;
+  }
   .section-termin .container .main-title {
     font-size: 24px;
     font-weight: 700;
