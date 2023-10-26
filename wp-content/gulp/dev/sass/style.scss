@@ -367,7 +367,7 @@ header {
   .box-details {
     display: flex;
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 12px 16px;
     background-color: #FFF;
     box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.1);
     bottom: 80px;
@@ -377,7 +377,8 @@ header {
     opacity: 0;
     pointer-events: none;
     transition: all 0.5s;
-
+    border: 1px solid #FFE900;
+    width: 268px;
     &.active {
       pointer-events: all;
       opacity: 1;
@@ -385,13 +386,21 @@ header {
 
     .box-item {
       display: flex;
+      align-items: center;
       font-size: 1rem;
-      margin-top: 1.25rem;
-      color: #000;
-
+      margin: 4px 0;
+      border-radius: 16px;
+      background: rgba(35, 70, 127, 0.06);
+      padding: 12px 8px;
+      svg{
+        margin-right: 8px;
+      }
       a {
-        color: #000;
-        text-decoration: underline;
+        color: #23467F;
+        font-family: Gordita;
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
       }
     }
   }

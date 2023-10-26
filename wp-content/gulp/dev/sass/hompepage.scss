@@ -201,8 +201,10 @@
         justify-content: start;
         align-items: center;
         padding: 24px 16px;
-
-        .icon-wrapper {
+        height: 100%;
+        background: white;
+        border-radius: 18px;
+        .icon-wrappers {
           border-radius: 20px;
           background: #FFE900;
           width: 84px;

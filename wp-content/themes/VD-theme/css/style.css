@@ -236,8 +236,11 @@
   justify-content: start;
   align-items: center;
   padding: 24px 16px;
+  height: 100%;
+  background: white;
+  border-radius: 18px;
 }
-.section-new-contact .container .elements .element-wrapper .icon-wrapper {
+.section-new-contact .container .elements .element-wrapper .icon-wrappers {
   border-radius: 20px;
   background: #FFE900;
   width: 84px;
@@ -802,7 +805,7 @@ header .header-wrapper .get-in-touch a {
 .icon-bar .box-details {
   display: flex;
   flex-direction: column;
-  padding: 10px 20px;
+  padding: 12px 16px;
   background-color: #FFF;
   box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.1);
   bottom: 80px;
@@ -812,6 +815,8 @@ header .header-wrapper .get-in-touch a {
   opacity: 0;
   pointer-events: none;
   transition: all 0.5s;
+  border: 1px solid #FFE900;
+  width: 268px;
 }
 .icon-bar .box-details.active {
   pointer-events: all;
@@ -819,13 +824,22 @@ header .header-wrapper .get-in-touch a {
 }
 .icon-bar .box-details .box-item {
   display: flex;
+  align-items: center;
   font-size: 1rem;
-  margin-top: 1.25rem;
-  color: #000;
+  margin: 4px 0;
+  border-radius: 16px;
+  background: rgba(35, 70, 127, 0.06);
+  padding: 12px 8px;
+}
+.icon-bar .box-details .box-item svg {
+  margin-right: 8px;
 }
 .icon-bar .box-details .box-item a {
-  color: #000;
-  text-decoration: underline;
+  color: #23467F;
+  font-family: Gordita;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .footer {
