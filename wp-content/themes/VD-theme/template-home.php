@@ -235,7 +235,7 @@ Template Name: Homepage Template
             </div>
             <div class="col-6 col-md-3">
                 <div class="element-wrapper">
-                    <a id="share">
+                    <a class="share" style="cursor: pointer">
                     <div class="icon-wrappers">
                         <svg width="39" height="40" viewBox="0 0 39 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -423,7 +423,7 @@ Template Name: Homepage Template
         </svg>
         E-Mail
     </a>
-    <a id="share">
+    <a class="share" style="cursor:pointer">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <g clip-path="url(#clip0_1_397)">
                 <path
