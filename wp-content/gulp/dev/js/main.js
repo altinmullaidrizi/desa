@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
 
-    var shareButton = jQuery('#share');
+    var shareButton = jQuery('.share');
 
     // Add a click event handler to the "share" button
     shareButton.on('click', function () {

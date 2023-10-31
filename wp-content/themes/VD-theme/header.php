@@ -185,7 +185,7 @@ if (!$has_page_banner) {
 </svg>
 
 
-                <a style="white-space:no-wrap" id="share" >Teilen</a>
+                <a style="white-space:no-wrap; cursor: pointer" class="share" >Teilen</a>
                 </div>
             </div>
         </div>
