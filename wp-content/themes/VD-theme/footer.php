@@ -1,10 +1,4 @@
 <?php
-$footer_title = get_field('footer_title', 'options');
-$footer_content = get_field('footer_content', 'options');
-$footer_menu_label_1 = get_field('footer_menu_label_1', 'options');
-$footer_menu_label_2 = get_field('footer_menu_label_2', 'options');
-$footer_menu_label_3 = get_field('footer_menu_label_3', 'options');
-$footer_menu_label_4 = get_field('footer_menu_label_4', 'options');
 ?>
 
 

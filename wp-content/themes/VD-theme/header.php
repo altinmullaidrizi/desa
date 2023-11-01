@@ -1,9 +1,4 @@
 <?php
-$logo = get_field('main_logo', 'options');
-$has_page_banner = get_field('has_page_banner');
-if (!$has_page_banner) {
-    $header_color_class = ' dark-background';
-}
 ?>
 
 <!DOCTYPE html>
