@@ -193,7 +193,7 @@ Template Name: Homepage Template
             Vereinbaren Sie schnell und einfach einen Termin!
         </p>
         <div class="row elements">
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3" style="margin-bottom:10px">
 
                 <div class="element-wrapper">
                 <a href="tel:0848 80 40 22">
@@ -213,7 +213,7 @@ Template Name: Homepage Template
                     <a class="link" href="tel:0848 80 40 22">0848 80 40 22</a>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3" style="margin-bottom:10px">
                 <div class="element-wrapper">
                 <a href="mailto:info@desa-autoglass.ch">
 
@@ -233,7 +233,7 @@ Template Name: Homepage Template
                     <a class="link" href="mailto:info@desa-autoglass.ch">info@desa-autoglass.ch</a>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3" style="margin-bottom:10px">
                 <div class="element-wrapper">
                     <a class="share" style="cursor: pointer">
                     <div class="icon-wrappers">
@@ -250,7 +250,7 @@ Template Name: Homepage Template
                     </p>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3" style="margin-bottom:10px">
                 <div class="element-wrapper share-element">
                     <p class="direction-title">
                         Jetzt online Termin vereinbaren!
