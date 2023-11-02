@@ -78,13 +78,67 @@
       margin: auto;
     }
 
-    .row {
+    .main-row {
       align-items: center;
       justify-content: space-between;
-
+      color: #23467F;
       .img-part {
         img {
           object-fit: contain;
+          max-width: 80%;
+        }
+        .top-row{
+          .left{
+            display: flex;
+          }
+          .right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .rate-numbers-reviews{
+              font-size: 80px;
+              font-weight: 700;
+              display: flex;
+              margin-bottom: 0;
+              span{
+                font-size: 50px;
+                font-weight: 700;
+                margin-left: 10px;
+              }
+            }
+            .jahre-rate-numbers{
+              font-size: 18px;
+              font-weight: 700;
+            }
+          }
+        }
+        .bottom-wrapper{
+          margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color: #F2F4F7;
+          padding: 50px 0;
+          border-radius: 16px;
+          .rate-uber{
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 23px;
+          }
+          .rate-numbers{
+            font-size: 56px;
+            font-weight: 700;
+            margin-top: -25px ;
+          }
+          .rate-wrapper{
+            display: flex;
+            justify-content: center;
+            margin-top: -40px;
+            margin-bottom: -15px;
+            img{
+              width: 200px;
+            }
+          }
         }
       }
 
@@ -92,7 +146,7 @@
         p {
           color: #23467F;
           font-family: Gordita;
-          font-size: 18px;
+          font-size: 20px;
           font-style: normal;
           font-weight: 500;
           line-height: normal;

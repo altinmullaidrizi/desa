@@ -136,17 +136,70 @@
   margin-bottom: 80px !important;
   margin: auto;
 }
-.section-google .container .row {
+.section-google .container .main-row {
   align-items: center;
   justify-content: space-between;
+  color: #23467F;
 }
-.section-google .container .row .img-part img {
+.section-google .container .main-row .img-part img {
   object-fit: contain;
+  max-width: 80%;
 }
-.section-google .container .row .dsp-part p {
+.section-google .container .main-row .img-part .top-row .left {
+  display: flex;
+}
+.section-google .container .main-row .img-part .top-row .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-google .container .main-row .img-part .top-row .right .rate-numbers-reviews {
+  font-size: 80px;
+  font-weight: 700;
+  display: flex;
+  margin-bottom: 0;
+}
+.section-google .container .main-row .img-part .top-row .right .rate-numbers-reviews span {
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.section-google .container .main-row .img-part .top-row .right .jahre-rate-numbers {
+  font-size: 18px;
+  font-weight: 700;
+}
+.section-google .container .main-row .img-part .bottom-wrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F4F7;
+  padding: 50px 0;
+  border-radius: 16px;
+}
+.section-google .container .main-row .img-part .bottom-wrapper .rate-uber {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+.section-google .container .main-row .img-part .bottom-wrapper .rate-numbers {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: -25px;
+}
+.section-google .container .main-row .img-part .bottom-wrapper .rate-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+  margin-bottom: -15px;
+}
+.section-google .container .main-row .img-part .bottom-wrapper .rate-wrapper img {
+  width: 200px;
+}
+.section-google .container .main-row .dsp-part p {
   color: #23467F;
   font-family: Gordita;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -1038,6 +1091,12 @@ input.wpcf7-submit {
 }
 
 @media only screen and (max-width: 767px) {
+  .section-google .container .main-row .img-part .top-row .right .rate-numbers-reviews {
+    font-size: 60px;
+  }
+  .section-google .container .main-row .img-part .top-row .right .rate-numbers-reviews span {
+    font-size: 30px;
+  }
   .footer .container .footer-container .left-part .logo {
     max-width: 180px;
   }
