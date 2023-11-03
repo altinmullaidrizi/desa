@@ -87,6 +87,9 @@
           object-fit: contain;
           max-width: 80%;
         }
+        .google{
+          max-width: 100%;
+        }
         .top-row{
           .left{
             display: flex;
@@ -107,7 +110,7 @@
               }
             }
             .jahre-rate-numbers{
-              font-size: 18px;
+              font-size: 15px;
               font-weight: 700;
             }
           }
@@ -138,6 +141,9 @@
             img{
               width: 200px;
             }
+          }
+          .rate-durch{
+            margin-bottom: 0;
           }
         }
       }

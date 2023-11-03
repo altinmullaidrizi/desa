@@ -46,7 +46,7 @@ Template Name: Homepage Template
             <div class="col-md-6 img-part">
                 <div class="row top-row">
                     <div class="col-6 left">
-                        <img class="google" src="<?= get_theme_file_uri() ?>/images/google-.png" alt="">
+                        <img class="google" src="<?= get_theme_file_uri() ?>/images/google-reviews-new.png" alt="">
                     </div>
                     <div class="col-5 right">
                         <p class="rate-numbers-reviews">
@@ -58,7 +58,7 @@ Template Name: Homepage Template
                     </div>
                 </div>
                 <div class="bottom-wrapper">
-                    <p class="rate-uber">Uber 1200 Bewertungen:</p>
+                    <p class="rate-uber">Über 1200 Bewertungen</p>
                     <p class="rate-numbers">4.8</p>
                     <div class="rate-wrapper">
                         <img class="rate" src="<?= get_theme_file_uri() ?>/images/rate.png" alt="">

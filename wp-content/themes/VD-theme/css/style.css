@@ -145,6 +145,9 @@
   object-fit: contain;
   max-width: 80%;
 }
+.section-google .container .main-row .img-part .google {
+  max-width: 100%;
+}
 .section-google .container .main-row .img-part .top-row .left {
   display: flex;
 }
@@ -165,7 +168,7 @@
   margin-left: 10px;
 }
 .section-google .container .main-row .img-part .top-row .right .jahre-rate-numbers {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
 }
 .section-google .container .main-row .img-part .bottom-wrapper {
@@ -195,6 +198,9 @@
 }
 .section-google .container .main-row .img-part .bottom-wrapper .rate-wrapper img {
   width: 200px;
+}
+.section-google .container .main-row .img-part .bottom-wrapper .rate-durch {
+  margin-bottom: 0;
 }
 .section-google .container .main-row .dsp-part p {
   color: #23467F;
