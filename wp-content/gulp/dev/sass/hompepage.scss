@@ -112,6 +112,7 @@
             .jahre-rate-numbers{
               font-size: 15px;
               font-weight: 700;
+              white-space: nowrap;
             }
           }
         }
@@ -155,8 +156,8 @@
           font-size: 20px;
           font-style: normal;
           font-weight: 500;
-          line-height: normal;
           max-width: 535px;
+          line-height: 1.2;
         }
       }
 
@@ -186,7 +187,8 @@
       display: flex;
       align-items: center;
       margin: auto;
-      max-width: 665px;
+      width: fit-content;
+      //max-width: 665px;
 
       svg {
         margin-right: 8px;
@@ -358,7 +360,7 @@
           line-height: normal;
         }
 
-        
+
       }
     }
   }

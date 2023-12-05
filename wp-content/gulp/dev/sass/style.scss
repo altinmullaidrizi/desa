@@ -137,7 +137,6 @@ html {
 
 body {
   font-family: "Gordita", sans-serif;
-  hyphens: auto;
 }
 
 .module {
@@ -619,7 +618,7 @@ input.wpcf7-submit {
   width: 100%;
   z-index: 9;
   display: none;
-  
+
   a {
     display: flex;
     flex-direction: column;
@@ -631,7 +630,7 @@ input.wpcf7-submit {
     border-right: 1px solid white;
     font-size: 12px;
     font-weight: 700;
-    
+
     &:last-of-type {
       border-right: none;
     }
