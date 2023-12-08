@@ -693,10 +693,10 @@ Template Name: Homepage Template
 <footer class="footer">
     <div class="container">
         <div class="row footer-container">
-            <div class="col-md-6 left-part">
+            <div class="col-md-4 left-part">
                 <img class="logo" src="<?= get_theme_file_uri() ?>/images/logo-footer.svg" alt="">
             </div>
-            <div class="col-md-6 right-part">
+            <div class="col-md-8 right-part">
                 <p style="margin-bottom:0">DESA AUTOGLASS AG |<br style="display:none"> Thunstrasse 162 |<br style="display:none"> 3074 Muri b. Bern </p>
                 <div class="d-flex">
                     <a style="margin-right:5px"

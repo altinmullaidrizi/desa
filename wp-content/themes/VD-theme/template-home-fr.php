@@ -63,7 +63,7 @@ Template Name: Homepage French Template
 <!-- End Google Tag Manager (noscript) -->
 
 <header class="header">
-    <div class="container">
+    <div class="container-fluid">
         <div class="header-wrapper">
 
             <div class="header-logo">
@@ -74,22 +74,22 @@ Template Name: Homepage French Template
             <div class="nav-items d-none d-lg-flex">
                 <ul>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/personenwagen/">Personenwagen</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/voitures/">Voitures</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/truck-bus/">Truck & Bus</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/truck-bus/">Truck & Bus</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/flottenpartner/">Flottenpartner</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/partenaire-flottes/">Partenaire Flottes</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/filialen/">Filialen</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/succursales/">Succursales</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/ueber-uns/">Über uns</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/portrait/">Portrait</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/faq/">FAQ</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/faq/">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -109,22 +109,22 @@ Template Name: Homepage French Template
             <div class="mobile-nav-items d-none" id="mobile-nav-items">
                 <ul class="d-flex col">
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/personenwagen/">Personenwagen</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/voitures/">Voitures</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/truck-bus/">Truck & Bus</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/truck-bus/">Truck & Bus</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/flottenpartner/">Flottenpartner</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/partenaire-flottes/">Partenaire Flottes</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/filialen/">Filialen</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/succursales/">Succursales</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/ueber-uns/">Über uns</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/portrait/">Portrait</a>
                     </li>
                     <li>
-                        <a target="blank" href="https://www.desa-autoglass.ch/faq/">FAQ</a>
+                        <a target="_blank" href="https://www.desa-autoglass.ch/fr/faq/">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -171,7 +171,7 @@ Template Name: Homepage French Template
                     </defs>
                 </svg>
 
-                <a style="white-space:no-wrap" target="blank" href="https://reservation.desa-autoglass.ch/">Rendez-vous en ligne</a>
+                <a style="white-space:no-wrap" target="_blank" href="https://reservation.desa-autoglass.ch/">Rendez-vous en ligne</a>
             </div>
             <div class="box-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -625,7 +625,7 @@ Template Name: Homepage French Template
         </svg>
         Appel
     </a>
-    <a target="blank" href="https://reservation.desa-autoglass.ch/">
+    <a target="_blank" href="https://reservation.desa-autoglass.ch/">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_1_412)">
                 <path
@@ -692,10 +692,10 @@ Template Name: Homepage French Template
 <footer class="footer">
     <div class="container">
         <div class="row footer-container">
-            <div class="col-md-6 left-part">
+            <div class="col-md-4 left-part">
                 <img class="logo" src="<?= get_theme_file_uri() ?>/images/logo-footer.svg" alt="">
             </div>
-            <div class="col-md-6 right-part">
+            <div class="col-md-8 right-part">
                 <p style="margin-bottom:0">DESA AUTOGLASS AG |<br style="display:none"> Thunstrasse 162 |<br style="display:none"> 3074 Muri b. Bern
                 </p>
                 <div class="d-flex">
@@ -727,3 +727,19 @@ Template Name: Homepage French Template
 
 <?php get_footer();
 ?>
+
+<style>
+    .header .header-wrapper {
+        justify-content: center;
+    }
+    @media only screen and (max-width: 1020px) {
+        header .header-wrapper .nav-items ul li a {
+            font-size: 13px;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .header .header-wrapper {
+            justify-content: space-between;
+        }
+    }
+</style>
