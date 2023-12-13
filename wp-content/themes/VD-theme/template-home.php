@@ -22,17 +22,7 @@ Template Name: Homepage Template
             })(window,document,'script','dataLayer','GTM-WSRWFW2');</script>
         <!-- End Google Tag Manager -->
         <title>
-            <?php
-            global $page, $paged;
-            wp_title('|', true, 'right');
-            // Add the blog name.
-            bloginfo('name');
-            //Add the blog description for the home/fron page.
-            $site_description = get_bloginfo('description', 'display');
-            if ($site_description && (is_home() || is_front_page())) {
-                echo " | $site_description";
-            }
-            ?>
+            DESA AUTOGLASS - Termin
         </title>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

@@ -30,17 +30,7 @@ Template Name: Homepage French Template
         })(window, document, 'script', 'dataLayer', 'GTM-WSRWFW2');</script>
     <!-- End Google Tag Manager -->
     <title>
-        <?php
-        global $page, $paged;
-        wp_title('|', true, 'right');
-        // Add the blog name.
-        bloginfo('name');
-        //Add the blog description for the home/fron page.
-        $site_description = get_bloginfo('description', 'display');
-        if ($site_description && (is_home() || is_front_page())) {
-            echo " | $site_description";
-        }
-        ?>
+        DESA AUTOGLASS – Rendez-vous
     </title>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -222,7 +212,7 @@ Template Name: Homepage French Template
         <div class="row hero-row">
             <div class="col-md-12 top-part">
                 <p class="title">
-                    Bienvenue chez <span style="white-space: nowrap">DESA&nbsp;AUTOGLASS</span> <wbr> – votre spécialiste suisse du vitrage d’automobiles
+                    Bienvenue chez <span style="white-space: nowrap">DESA&nbsp;AUTOGLASS</span> <wbr> – votre spécialiste suisse du vitrage automobile
                 </p>
                 <p class="dsp">
                     Nous nous occupons de tout!
@@ -248,7 +238,7 @@ Template Name: Homepage French Template
 <section id="section-google" class="section-google">
     <div class="container">
         <p class="title">
-            La numéro 1 en Suisse pour le remplacement et la réparation de vos pare-brise.
+            La numéro 1 en Suisse pour le remplacement et la réparation de votre pare-brise.
         </p>
         <div class="main-row row">
             <div class="col-md-6 img-part">
@@ -525,7 +515,7 @@ Template Name: Homepage French Template
 <section id="section-repair" class="section-repair">
     <div class="container">
         <p class="main-title">
-            Nous remplaçons ou réparons tous les pare-brise
+            Nous remplaçons ou réparons tous les pare-brises
         </p>
         <div class="row elements">
             <div class="col-6 col-md-3">
