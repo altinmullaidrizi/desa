@@ -24,6 +24,7 @@ Template Name: Homepage Template
         <title>
             DESA AUTOGLASS - Termin
         </title>
+        <meta name="title" content="DESA AUTOGLASS - Termin für Reparatur oder Ersatz">
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
@@ -39,7 +40,7 @@ Template Name: Homepage Template
 
         <?php wp_head(); ?>
 
-
+        <meta name="google-site-verification" content="nE-Lo0B-4jq3iYM7kRPzhzfkMe7QFkYAspRxJXtyaG0" />
     </head>
 
 <body>
@@ -122,7 +123,7 @@ Template Name: Homepage Template
         <div class="icon-wrapper">
             <div class="">
                 Kontaktieren
-                Sie Uns
+                Sie uns
             </div>
         </div>
         <div class="box-details">

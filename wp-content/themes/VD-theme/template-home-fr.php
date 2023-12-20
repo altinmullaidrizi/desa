@@ -32,6 +32,7 @@ Template Name: Homepage French Template
     <title>
         DESA AUTOGLASS – Rendez-vous
     </title>
+    <meta name="title" content="DESA AUTOGLASS - Rendez-vous pour réparation ou remplacement">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
@@ -41,7 +42,7 @@ Template Name: Homepage French Template
 
     <?php wp_head(); ?>
 
-
+    <meta name="google-site-verification" content="nE-Lo0B-4jq3iYM7kRPzhzfkMe7QFkYAspRxJXtyaG0" />
 </head>
 
 <body>
