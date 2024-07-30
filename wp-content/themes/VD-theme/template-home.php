@@ -231,7 +231,7 @@ Template Name: Homepage Template
 <section id="section-google" class="section-google">
     <div class="container">
         <p class="title">
-            Die Nr. 1 in der Schweiz wenn es um Eratz und Reperatur Ihrer Fahrzeugscheiben geht.
+            Die Nr. 1 in der Schweiz wenn es um Ersatz und Reparatur Ihrer Fahrzeugscheiben geht.
         </p>
         <div class="main-row row">
             <div class="col-md-6 img-part">
